@@ -1,0 +1,552 @@
+*{
+margin: 0;
+padding: 0;
+font-family:Poppins;
+box-sizing: border-box;
+}
+ul{
+
+    list-style: none;
+}
+nav{
+   
+    height: 80px;
+    width: 100%;
+    background-color:  #F40404;
+    ;
+    color: #FFFFFF;
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+}
+
+
+.flex{
+display: flex;
+
+justify-content: center;
+align-items: center;
+justify-content: center;
+}
+
+.btn{
+  cursor: pointer;
+  background-color: #F40404;
+  color: #FFFFFF;
+  text-decoration: none;
+ width: 100px;
+ padding: 4px;
+ border: none;
+font-size: 15px;
+
+}
+ .gap{
+    
+    justify-content: space-around;
+ }
+/*... common codes.... */   
+
+/*....... navbar starts here .........*/
+
+.full{
+    width: 80%;
+    height: 80%;
+    gap: 150px;
+}
+
+
+  
+.name a{
+    text-decoration: none;
+    color:  #FFFFFF;
+    font-size: 20px;
+    margin: 4px;
+    padding: 4px;
+}
+.name a:hover{
+    
+    color:  black;
+    
+    
+}
+
+
+.about a{
+    color:  #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 4px;
+    padding: 4px;
+}
+.about a:hover{
+    color: black;}
+    
+.service a{ 
+    color:  #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 4px;
+    padding: 4px; 
+}
+.service a:hover{ 
+    color:  black;}
+   
+
+
+
+.contact a{
+    color:  #FFFFFF;
+        text-decoration: none;
+    margin: 4px;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 60rem;
+    border: 2px solid white;
+    border-radius: 9%;
+    
+
+}
+.contact a:hover{
+    color:  black;       
+
+}
+
+
+
+/*....... navbar ends here.......... */
+
+/* ..........banner starts here..... */
+ .banner{
+  display: flex;
+  color: #FFFFFF;
+  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   background-image: url(file:///C:/Users/USER/OneDrive/Desktop/class%20project/banner.png.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 89vh;
+  width: 100%;
+  font-size: 25px;
+
+ }
+.banner button{
+ 
+    margin-right: 807px;
+
+
+}
+
+
+/* ,,,,banner ends here ......*/
+
+/*......... big banner starts here........ */
+.big_banner{
+
+width: 100%;
+height: 40vh;
+top: 0;
+left: 0;
+gap: 0px;
+opacity: 0px;
+
+ gap: 20px;
+}
+
+
+
+/* .........big banner ends here........ */
+
+
+/*...... third banner starts here..... */
+
+.third_banner img{
+height: 30vh;
+width: 100%;
+justify-content:space-around;
+
+
+}
+
+
+
+/* .......third banner ends here..... */
+
+
+
+/* .............fourth section starts here..... */
+
+
+
+.fourth_section{
+
+height: 90vh;
+width: 100%;
+}
+
+.d1{
+    height: 50%;
+    width: 100%;
+    
+}
+.d2{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+.de1{
+    height: 100%;
+   
+   width: 100%;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 25px ;
+    font-weight:  7px;
+    font-family: "Poppins", system-ui;
+
+    }
+
+.de2{
+ height: 100%;
+
+width: 100%;
+ background-image: url(file:///C:/Users/USER/OneDrive/Desktop/class%20project/image2.png.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ overflow: hidden;
+ position: relative;
+}
+
+.de3{
+    height: 100%;
+   
+   width: 100%;
+   background-image: url(file:///C:/Users/USER/OneDrive/Desktop/class%20project/image2.png.png);
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+   }
+
+.de4{
+height: 100%;
+width: 100%;
+background-image: url(file:///C:/Users/USER/OneDrive/Desktop/class%20project/image2.png.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+
+
+.overly{
+    background: rgba(21, 22, 23, 0.5);
+    height: 0;
+    width: 0;
+    position: absolute;
+    top:1000px ;
+    left: ;
+    transition: all 0.7s  ease;
+    color: #FFFFFF;
+}
+
+.de2:hover .overly{
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.de3:hover .overly{
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.de4:hover .overly{
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+
+      
+/* ...............fourth section ends here..... */
+
+
+
+/* ...............fifth  section starts here..... */
+
+
+
+.fifth-sec{
+
+    height: 80vh;
+    width: 100%;
+background-color:  #F0F0F0;
+
+    
+}
+
+.container{
+
+    padding: 4px 0 ;
+
+}
+.banner5th{
+
+    height: 60vh;
+    width: 70%;
+}
+.be1:hover .flow{
+
+    left: 0;
+    
+}
+
+.be1{
+height: 100%;
+width:100%;
+background-image: url(./image8.png.png);
+margin: 95px 190px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+
+
+
+.flow{
+
+height: 100%;
+width: 30%;
+background-color: #F40404;
+justify-content: center;
+padding: 0 16px;
+position: relative;
+position: absolute;
+top: 0;
+left: -100%;
+transition: all 0.9s  ease;
+}
+.button5th{
+
+position: absolute;
+top: 221px ;
+left: 604px;
+}
+
+
+    
+   
+
+
+
+
+
+/* ...............fifth section ends here..... */
+
+/* ...............6th section ends here..... */
+
+.sixthsec{
+
+    height: 30vh;
+    width: 100%;
+}
+.sixthsec .flex{
+
+padding: 80px 0 0 0;
+
+
+}
+
+
+
+/* ...............6th section ends here..... */
+
+
+
+/* ...............7th section ends here..... */
+
+.seventhsec{
+height: 700px;
+width: 100%;
+background-color: #F0F0F0;
+
+;
+
+}
+.seventhsec .flex{
+  height: 100%;
+width: 100%;
+gap: 20px;
+padding: 0 10px;
+}
+
+
+.seventhsec_1{
+    background-image: url(./image11.png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50%;   
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+
+}
+.seventhsec_2{
+    height: 50%;   
+    width: 30%;
+    
+    background-image: url(./image10.PNG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    
+}
+.seventhsec_3{
+
+height: 50%;   
+background-image: url(./image9.png.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width:30%;
+position: relative;
+overflow: hidden;
+
+}
+
+.seventhsec .overly1{
+    background-color: rgba(25, 21, 21 ,0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #FFFFFF;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    transition: all 0.9s  ease;
+}
+.overly1 .btn{
+
+    background-color: rgba(255, 255, 255 ,0.6);
+    color: white;
+   margin-right: 270px;
+   margin-top: 30px;
+
+}
+
+.seventhsec_1:hover .overly1{
+    top: 0;
+}
+
+.seventhsec_2:hover .overly1{
+    top: 0;
+}
+
+.seventhsec_3:hover .overly1{
+    top: 0;
+}
+
+
+
+
+
+/* ...............7th section ends here..... */
+
+/* ...............map and contact section ends here..... */
+
+.container .map{
+
+    height: 60vh;
+    width: 100%;
+    background-image: url(./Maps.png);
+
+}
+.contact1{
+    padding: 15px;
+    background-color:  #F40404;
+    color: white;
+}
+.contact1 .btn{
+
+    border: white 1px solid;
+    margin-left: 151px;
+}
+
+
+/* ...............map and contact section ends here..... */
+
+/* ...............footer section ends here..... */
+
+footer .container{
+
+    background-color: rgb(0, 0, 0);
+    height:40vh;
+    width: 100%;
+    color: #FFFFFF;
+    gap: 25px;
+    justify-content: space-around;
+}
+
+.list_icon{
+size: 15px;
+font-size: 20px;
+
+
+
+gap: 12px;
+margin-left: -240px;
+
+}
+.list_icon i{
+    color: #F0F0F0;
+    
+border-radius: 30%;
+
+}
+.container2{
+height: 10vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #282828;
+
+
+</div>;
+}
+
+/* ...............footer section ends here..... */
+
+
+
+    
